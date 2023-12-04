@@ -1,0 +1,283 @@
+.container {
+  width: 1200px;
+  border: solid red;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+:root {
+  --text-color: #212121;
+  --content-color: #757575;
+  --footer-color: #2f303a;
+  --button-color: #2196f3;
+  --hero-background: #2f303a;
+}
+
+body {
+  font-family: Roboto;
+}
+
+/* header */
+
+.header-logo {
+  color: var(--button-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.header-logo-color {
+  color: #000;
+}
+
+.header-link {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.header-item {
+}
+
+.header-contact {
+}
+
+.header-adress {
+  color: var(--content-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.header-link:hover {
+  color: var(--button-color);
+}
+
+.header-adress:hover {
+  color: var(--button-color);
+}
+
+.info {
+}
+
+.info-list {
+}
+
+.info-heading {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 600px;
+  background-color: var(--hero-background);
+}
+
+.hero-heading {
+  width: 696px;
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  padding-top: 200px;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  background: var(--button-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 200px;
+}
+
+.hero-button-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+
+.info-list {
+  padding-top: 94px;
+}
+
+.info-text {
+  color: var(--content-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.info-item {
+}
+
+.pictures-title {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  padding-top: 94px;
+}
+
+.pictures {
+}
+
+.pictures-list {
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+
+.pictures-photo {
+}
+
+.workers-title {
+  text-align: center;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  padding-top: 94px;
+}
+
+.worker-photo {
+  width: 270px;
+  height: 260px;
+}
+
+.workers {
+  background: #f5f4fa;
+}
+
+.workers-list {
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+
+.worker-name {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.worker-skill {
+  color: var(--content-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.worker-item {
+}
+
+.footr {
+  background: var(--footer-color);
+}
+
+.footer-logo {
+  color: var(--button-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
+.studio-color {
+  color: #fff;
+}
+
+.adres {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  font-style: normal;
+}
+
+.info-footer {
+  list-style: none;
+  color: var(--content-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* portfolio */
+
+.buttons {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.buttons-all {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  width: 73px;
+  height: 38px;
+  border-radius: 4px;
+  background: var(--button-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+  padding-bottom: 94px;
+}
+
+.photo {
+  width: 370px;
+  height: 404px;
+}
+
+.poster-about {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+.poster-name {
+  color: var(--content-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+a {
+  color: inherit;
+}
