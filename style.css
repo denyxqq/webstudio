@@ -20,6 +20,11 @@ body {
 
 /* header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-logo {
   color: var(--button-color);
   font-family: Raleway;
@@ -60,6 +65,8 @@ body {
 }
 
 .info {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .info-list {
@@ -76,6 +83,8 @@ body {
 .hero {
   height: 600px;
   background-color: var(--hero-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-heading {
@@ -86,8 +95,6 @@ body {
   font-weight: 900;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  padding-top: 200px;
-  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -96,7 +103,6 @@ body {
   border-radius: 4px;
   background: var(--button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 200px;
 }
 
 .hero-button-text {
@@ -108,7 +114,6 @@ body {
 }
 
 .info-list {
-  padding-top: 94px;
 }
 
 .info-text {
@@ -128,15 +133,13 @@ body {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  padding-top: 94px;
 }
 
 .pictures {
+  padding-bottom: 94px;
 }
 
 .pictures-list {
-  margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .pictures-photo {
@@ -149,7 +152,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  padding-top: 94px;
 }
 
 .worker-photo {
@@ -159,11 +161,11 @@ body {
 
 .workers {
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .workers-list {
-  margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .worker-name {
@@ -187,6 +189,8 @@ body {
 
 .footr {
   background: var(--footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -217,15 +221,11 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* portfolio */
 
 .buttons {
-  margin-top: 94px;
-  margin-bottom: 50px;
 }
 
 .button {
@@ -254,7 +254,6 @@ body {
 }
 
 .list {
-  padding-bottom: 94px;
 }
 
 .photo {
@@ -280,4 +279,12 @@ body {
 }
 a {
   color: inherit;
+}
+.buttons-catalogue {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.photo-post {
+  padding-bottom: 94px;
 }
