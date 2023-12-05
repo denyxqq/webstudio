@@ -20,11 +20,6 @@ body {
 
 /* header */
 
-.header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .header-logo {
   color: var(--button-color);
   font-family: Raleway;
@@ -287,4 +282,7 @@ a {
 
 .photo-post {
   padding-bottom: 94px;
+}
+
+.header-information {
 }
