@@ -26,9 +26,22 @@ body {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
+  align-items: center;
 }
 .header-logo-color {
   color: #000;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
+  margin-left: 93px;
+  align-items: center;
 }
 
 .header-link {
@@ -41,7 +54,10 @@ body {
 .header-item {
 }
 
-.header-contact {
+.header-contacts {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 
 .header-adress {
@@ -76,6 +92,7 @@ body {
 }
 
 .hero {
+  display: flex;
   height: 600px;
   background-color: var(--hero-background);
   padding-top: 200px;
@@ -90,6 +107,11 @@ body {
   font-weight: 900;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
 }
 
 .hero-button {
