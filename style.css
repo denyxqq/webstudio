@@ -107,7 +107,7 @@ body {
   font-weight: 900;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .box {
@@ -131,6 +131,8 @@ body {
 }
 
 .info-list {
+  display: flex;
+  gap: 30px;
 }
 
 .info-text {
@@ -157,9 +159,14 @@ body {
 }
 
 .pictures-list {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
 }
 
 .pictures-photo {
+  width: 370px;
+  height: 294px;
 }
 
 .workers-title {
@@ -183,6 +190,8 @@ body {
 }
 
 .workers-list {
+  display: flex;
+  gap: 30px;
 }
 
 .worker-name {
@@ -243,6 +252,9 @@ body {
 /* portfolio */
 
 .buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
 }
 
 .button {
@@ -264,13 +276,15 @@ body {
   letter-spacing: 0.48px;
   width: 73px;
   height: 38px;
+  color: var(--text-color);
   border-radius: 4px;
-  background: var(--button-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .photo {
@@ -307,4 +321,15 @@ a {
 }
 
 .header-information {
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-all:hover {
+  background-color: #2196f3;
+  color: white;
 }
