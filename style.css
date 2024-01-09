@@ -299,14 +299,17 @@ body {
 
 .list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+flex-wrap: wrap;
+gap: 30px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
 }
 
 .photo {
   width: 370px;
   border: 1px solid #eee;
   background: #fff;
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .poster-about {
@@ -318,6 +321,7 @@ body {
   line-height: 36px;
   letter-spacing: 1.08px;
   padding-left: 24px;
+  
 }
 
 .poster-name {
