@@ -1,6 +1,6 @@
 .container {
   width: 1200px;
-  border: dotted red;
+  /* border: dotted red; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -83,6 +83,8 @@ body {
 }
 
 .info-list {
+  display: flex;
+   
 }
 
 .info-heading {
@@ -221,6 +223,7 @@ body {
 .worker-item {
   border: 1px solid #eee;
   background: #fff;
+  box-shadow: 0px 5px 15px -10px    black;
 }
 
 .footr {
@@ -348,6 +351,7 @@ a {
 }
 
 .header-information {
+  box-shadow: inset 0px -5px 10px -10px grey ;
 }
 
 .box {
@@ -367,15 +371,17 @@ a {
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
-
+text-align: center;
 }
+
 
 .info-before::before{
   content: url(./images/pc.png);
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
-
+align-items: flex-end;
+text-align: center;
 }
 
 .info-clock::before{
@@ -383,16 +389,23 @@ height: 120px;
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
+text-align: center;
 }
+
 
 .info-austronaut::before{
   content: url(./images/astronaut.png);
 background-color: #F5F4FA;
 width: 270px;
 height: 120px;
+text-align: center;
 }
+
 
 .info-item{display: flex;
 flex-direction: column;
+}
 
+.pc-poster{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
