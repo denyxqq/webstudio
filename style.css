@@ -37,6 +37,9 @@ body {
   display: flex;
 }
 
+.header{
+}
+
 .header-list {
   display: flex;
   gap: 50px;
@@ -93,6 +96,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 
@@ -100,8 +104,10 @@ body {
   display: flex;
   height: 600px;
   background-color: var(--hero-background);
+  background-image: url(./images/Img.webp) , url(./images/Img\ Overlay.png);
   padding-top: 200px;
   padding-bottom: 200px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hero-heading {
@@ -114,6 +120,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+
 
 .box {
   display: flex;
@@ -149,7 +156,7 @@ body {
   letter-spacing: 0.42px;
 }
 
-.info-item {
+.info-item {display: flex;
 }
 
 .pictures-title {
@@ -363,15 +370,18 @@ a {
 .buttons-all:hover {
   background-color: #2196f3;
   color: white;
+
 }
 
 
-.info-item::before{
+.info-item::before{display: flex;
   content: url(./images/spytnik.png);
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
 text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 
@@ -380,8 +390,7 @@ text-align: center;
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
-align-items: flex-end;
-text-align: center;
+
 }
 
 .info-clock::before{
@@ -389,7 +398,8 @@ text-align: center;
   background-color: #F5F4FA;
 width: 270px;
 height: 120px;
-text-align: center;
+
+
 }
 
 
@@ -398,7 +408,7 @@ text-align: center;
 background-color: #F5F4FA;
 width: 270px;
 height: 120px;
-text-align: center;
+
 }
 
 
@@ -406,6 +416,6 @@ text-align: center;
 flex-direction: column;
 }
 
-.pc-poster{
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.card-poster:hover{
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12)
 }
