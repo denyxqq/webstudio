@@ -35,12 +35,18 @@ body {
 
 .header-navigation {
   display: flex;
+  padding-top: 20px;
 }
 
 .header{
+  height: 80px;
+
+
 }
 
 .header-list {
+
+
   display: flex;
   gap: 50px;
   margin-right: auto;
@@ -56,6 +62,7 @@ body {
 }
 
 .header-item {
+
 }
 
 .header-contacts {
@@ -284,8 +291,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button {
-  width: 125px;
-  height: 38px;
+
   border-radius: 4px;
   color: var(--text-color);
   font-weight: 500;
@@ -418,4 +424,46 @@ flex-direction: column;
 
 .card-poster:hover{
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12)
+}
+
+
+.button-2{
+  Width:125px;
+Height:38px;
+}
+
+.button-2:hover{
+  background-color: var(--button-color);
+  color: #F5F4FA;
+}
+
+
+.button-3{
+  width: 122px;
+  height: 38px;
+}
+
+.button-3:hover{
+  background-color: var(--button-color);
+color: #F5F4FA;
+}
+
+.button-4{
+  width: 130px;
+  height: 38px;
+}
+
+.button-4:hover{
+  background-color: var(--button-color);
+  color: #F5F4FA;
+}
+
+.button-5{
+  width: 130px;
+  height: 38px;
+}
+
+.button-5:hover{
+  background-color: var(--button-color); 
+  color: #F5F4FA;
 }
