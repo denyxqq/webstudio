@@ -109,8 +109,8 @@ body {
   display: flex;
   height: 600px;
   background-color: var(--hero-background);
-  background-image: url(./images/Img.webp) , url(./images/Img\ Overlay.png)
-  ;
+  background-image: url(./images/Img.webp);
+
   padding-top: 200px;
   padding-bottom: 200px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -309,8 +309,7 @@ body {
   height: 38px;
   color: var(--text-color);
   border-radius: 4px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .list {
@@ -373,6 +372,10 @@ a {
 }
 
 .buttons-all:hover {
+
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
   background-color: #2196f3;
   color: white;
 
@@ -432,6 +435,8 @@ Height:38px;
 }
 
 .button-2:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
   color: #F5F4FA;
 }
@@ -443,6 +448,8 @@ Height:38px;
 }
 
 .button-3:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
 color: #F5F4FA;
 }
@@ -453,6 +460,8 @@ color: #F5F4FA;
 }
 
 .button-4:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
   color: #F5F4FA;
 }
@@ -463,6 +472,8 @@ color: #F5F4FA;
 }
 
 .button-5:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+  0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color); 
   color: #F5F4FA;
 }
