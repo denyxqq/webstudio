@@ -38,13 +38,11 @@ body {
   padding-top: 20px;
 }
 
-.header{
+.header {
   height: 80px;
 }
 
 .header-list {
-
-
   display: flex;
   gap: 50px;
   margin-right: auto;
@@ -60,7 +58,6 @@ body {
 }
 
 .header-item {
-
 }
 
 .header-contacts {
@@ -92,7 +89,6 @@ body {
 
 .info-list {
   display: flex;
-   
 }
 
 .info-heading {
@@ -104,21 +100,18 @@ body {
   margin-top: 20px;
 }
 
-
 .hero {
   display: flex;
   height: 600px;
   background-color: var(--hero-background);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) , url(./images/Img.webp) ;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(./images/Img.webp);
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
-.hero::before{
-  content: "";
-  background-image: radial-gradient( );
-}
-
 .hero-heading {
   width: 696px;
   color: #fff;
@@ -129,7 +122,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 
 .box {
   display: flex;
@@ -165,7 +157,8 @@ body {
   letter-spacing: 0.42px;
 }
 
-.info-item {display: flex;
+.info-item {
+  display: flex;
 }
 
 .pictures-title {
@@ -239,7 +232,7 @@ body {
 .worker-item {
   border: 1px solid #eee;
   background: #fff;
-  box-shadow: 0px 5px 15px -10px    black;
+  box-shadow: 0px 5px 15px -10px black;
 }
 
 .footr {
@@ -293,7 +286,6 @@ body {
 }
 
 .button {
-
   border-radius: 4px;
   color: var(--text-color);
   font-weight: 500;
@@ -312,15 +304,14 @@ body {
   height: 38px;
   color: var(--text-color);
   border-radius: 4px;
-
 }
 
 .list {
   display: flex;
-flex-wrap: wrap;
-gap: 30px;
-display: grid;
-grid-template-columns: repeat(3,1fr);
+  flex-wrap: wrap;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .photo {
@@ -339,7 +330,6 @@ grid-template-columns: repeat(3,1fr);
   line-height: 36px;
   letter-spacing: 1.08px;
   padding-left: 24px;
-  
 }
 
 .poster-name {
@@ -365,7 +355,7 @@ a {
 }
 
 .header-information {
-  box-shadow: inset 0px -5px 10px -10px grey ;
+  box-shadow: inset 0px -5px 10px -10px grey;
 }
 
 .box {
@@ -375,108 +365,99 @@ a {
 }
 
 .buttons-all:hover {
-
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
   background-color: #2196f3;
   color: white;
-
 }
 
-
-.info-item::before{display: flex;
+.info-item::before {
+  display: flex;
   content: url(./images/spytnik.png);
-  background-color: #F5F4FA;
-width: 270px;
-height: 120px;
-text-align: center;
-align-items: center;
-justify-content: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.info-before::before{
+.info-before::before {
   content: url(./images/pc.png);
-  background-color: #F5F4FA;
-width: 270px;
-height: 120px;
-
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
 }
 
-.info-clock::before{
+.info-clock::before {
   content: url(./images/clock.png);
-  background-color: #F5F4FA;
-width: 270px;
-height: 120px;
-
-
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
 }
 
-
-.info-austronaut::before{
+.info-austronaut::before {
   content: url(./images/astronaut.png);
-background-color: #F5F4FA;
-width: 270px;
-height: 120px;
-
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
 }
 
-
-.info-item{display: flex;
-flex-direction: column;
+.info-item {
+  display: flex;
+  flex-direction: column;
 }
 
-.card-poster:hover{
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12)
+.card-poster:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-
-.button-2{
-  Width:125px;
-Height:38px;
+.button-2 {
+  width: 125px;
+  height: 38px;
 }
 
-.button-2:hover{
+.button-2:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
-  color: #F5F4FA;
+  color: #f5f4fa;
 }
 
-
-.button-3{
+.button-3 {
   width: 122px;
   height: 38px;
 }
 
-.button-3:hover{
+.button-3:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
-color: #F5F4FA;
+  color: #f5f4fa;
 }
 
-.button-4{
+.button-4 {
   width: 130px;
   height: 38px;
 }
 
-.button-4:hover{
+.button-4:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   background-color: var(--button-color);
-  color: #F5F4FA;
+  color: #f5f4fa;
 }
 
-.button-5{
+.button-5 {
   width: 130px;
   height: 38px;
 }
 
-.button-5:hover{
+.button-5:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-  0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background-color: var(--button-color); 
-  color: #F5F4FA;
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: var(--button-color);
+  color: #f5f4fa;
 }
