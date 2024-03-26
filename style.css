@@ -463,3 +463,46 @@ a {
   background-color: var(--button-color);
   color: #f5f4fa;
 }
+
+
+.information{
+  display: flex;
+  justify-content: center;
+  gap: 22px ;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.instagram{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: grey;
+}
+
+.linkedin{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: grey;
+}
+
+.facebook{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: grey;
+}
+
+
+.twitter{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: grey;
+}
+
+.svg-box:hover   .instagram{
+  fill:white;
+
+}
