@@ -692,3 +692,23 @@ fill: #f5f4fa;
 .footer-svg:hover {
 background-color: #2196f3;
 }
+
+.mail-svg{
+  width: 16px;
+height: 12px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+
+.header-adress:hover .mail-svg{
+  fill: #2196F3;
+}
+.phone-svg{
+  width: 10px;
+height: 16px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+.header-adress:hover .phone-svg{
+  fill: #2196F3;
+}
