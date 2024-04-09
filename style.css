@@ -477,18 +477,21 @@ a {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  fill: #AFB1B8;
 }
 
 .linkedin{
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  fill: #AFB1B8;
 }
 
 .facebook{
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  fill: #AFB1B8;
 }
 
 
@@ -496,6 +499,7 @@ a {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  fill: #AFB1B8;
 }
 
 .instagram :hover{
