@@ -742,15 +742,28 @@ text-transform: uppercase;
 
 .backdrop{
   width: 528px;
-height: 581px;
-flex-shrink: 0;
+  height: 581px;
+  flex-shrink: 0;
 background-color: #fff;
+position: absolute;
+top: 222px;
+left: 666px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
+
+
+.modal{
+position: relative;
+}
+
 
 .close-modal{
   width: 18px;
 height: 18px;
 flex-shrink: 0;
+
 }
 
 .backdrop-btn{
@@ -763,6 +776,13 @@ border-radius: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
+position: relative;
+left: 490px;
+top:14px;
+background-color: #FFF;
+border-radius: 20px;
+background: #FFF;
+
 }
 
 .give-feedback{
@@ -775,6 +795,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
+margin-left: 41px;
 }
 
 .feedback-title{
@@ -863,4 +884,64 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px;
+}
+.blank-info{
+  list-style: none;
+padding-left: 41px;
+
+}
+
+
+.blue-text{
+  color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.Conditions-contract{
+  margin-top: 20px;
+  padding-left: 57px;
+  
+
+}
+.comfirm-svg{
+  margin-right: 7px;
+}
+
+.send-info{
+  width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #188CE8;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+display: block;
+margin-left: 165px;
+}
+
+.send-color{
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+}
+
+
+.backdrop-btn:hover .close-modal{
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.10);
+fill: #2196F3;
+}
+
+.feedback-input{
+  margin-bottom: 10px;
 }
