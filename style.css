@@ -669,12 +669,14 @@ flex-direction: column;
 .footer-social{
   display: flex;
   gap: 70px ;
+  align-items: center;
 }
 
 .flex-social{
   display: flex;
   list-style: none;
   gap: 10px;
+  padding-bottom: 21px;
 }
 
 .icons-footer-link{
@@ -785,18 +787,6 @@ background: #FFF;
 
 }
 
-.give-feedback{
-  width: 448px;
-  color: #212121;
-text-align: center;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.6px;
-margin-left: 41px;
-}
 
 .feedback-title{
   width: 448px;
@@ -818,77 +808,58 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px; 
+margin-bottom: 4px;
+}
+
+
+.write-space{
+  display: block;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    width: 448px;
+    height: 40px;
+    padding: 0px 42px 0px 42px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+}
+.modal-svg{
+  width: 18px;
+    height: 18px;
+    position: relative;
+    left: 12px;
+  bottom: 30px;
 }
 
 .big-input{
-  width: 448px;
-height: 120px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
-}
-
-
-.feedback-title-mail{
-  width: 41px;
-  color: #757575;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.12px;
-}
-
-
-.feedback-title-phone{
-  width: 58px;
-  color: #757575;
-  font-family: Roboto;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.20);
+  font-family: 'Roboto';
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.12px;
-}
-
-.your-phone{
   width: 448px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
+  height: 120px;
+  padding: 0px 16px 82px 16px;
 }
 
-.feedback-mail{
-  width: 448px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
-}
 
-.feedback-name{
-  width: 448px;
-height: 40px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid rgba(33, 33, 33, 0.20);
-}
-
-.feedback-title-name{
-  color: #757575;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.12px;
-}
 .blank-info{
   list-style: none;
-padding-left: 41px;
+padding-left: 42px;
 
+}
+.modal-text{
+  margin-bottom: 4px;
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
 }
 
 
@@ -941,12 +912,65 @@ stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.10);
 fill: #2196F3;
 }
-
-.feedback-input{
-  margin-bottom: 10px;
-}
 .is-hidden{
 opacity: 0;
   visibility: hidden;
 pointer-events: none;
+}
+
+.give-feedback{
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+
+.spam-sub{
+  width: 358px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+ 
+.sub-links{
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.sub-about{
+
+}
+.button-telegram{
+  position: relative;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);  
+color: #FFF;
+}
+
+.button-logo{
+  position: relative;
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+fill: #FFF;
+right: 48px;
+  top: 7px ;
 }
