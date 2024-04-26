@@ -317,6 +317,7 @@ body {
   gap: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  position: relative;
 }
 
 .photo {
@@ -324,6 +325,8 @@ body {
   border: 1px solid #eee;
   background: #fff;
   flex-basis: calc((100% - 60px) / 3);
+  position: relative;
+  overflow: hidden;
 }
 
 .poster-about {
@@ -973,4 +976,71 @@ flex-shrink: 0;
 fill: #FFF;
 right: 48px;
   top: 7px ;
+}
+
+.card-background{
+  width: 370px;
+height: 294px;
+background: rgba(33, 150, 243, 0.90);
+position: absolute;
+z-index: 2;
+top: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+top: 100%;
+}
+
+.text-card{
+  width: 322px;
+  color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
+align-items: center;
+text-align: center;
+}
+
+.card-poster:hover .card-background{
+  opacity: 1;
+-webkit-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+top: 0;
+}
+.perf{
+  margin-bottom: 28px;
+}
+.perf::after{
+  content: "";
+  display: block;
+  border-radius: 2px;
+background: #2196F3;
+margin: auto;
+width: 78px;
+height: 4px;
+flex-shrink: 0;
+position: relative;
+top: 35px;
+right: 4px;
+color: #2196F3;
+}
+
+.Studio::after{
+  content: "";
+  display: block;
+  border-radius: 2px;
+background: #2196F3;
+margin: auto;
+width: 48px;
+height: 4px;
+flex-shrink: 0;
+position: relative;
+top: 34px;
+right: 1px;
+color: #2196F3;
 }
