@@ -775,7 +775,11 @@ border: 1px solid #2196f3;
   background: #fff;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+    transition-duration: 500ms;
+
 }
+
 
 .modal {
   position: relative;
@@ -907,6 +911,7 @@ border: 1px solid #2196f3;
 }
 
 .send-color {
+  display: block;
   color: #fff;
   text-align: center;
   font-family: Roboto;
